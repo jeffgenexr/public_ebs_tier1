@@ -11,6 +11,7 @@
     <type fullname="ButtonSoundEffects" preserve="all" />
     <type fullname="ButtonStyleSO" preserve="all" />
     <type fullname="ChoiceItemStyleSO" preserve="all" />
+    <type fullname="ConcreteMixerRotation" preserve="all" />
     <type fullname="ControlItemUI" preserve="all" />
     <type fullname="DirectControlMCQController" preserve="all" />
     <type fullname="DisableOcclusionMesh" preserve="all" />
@@ -18,6 +19,7 @@
     <type fullname="EnergyWheelArrow" preserve="all" />
     <type fullname="EnergyWheelModule" preserve="all" />
     <type fullname="GameplayHand" preserve="all" />
+    <type fullname="GlowEffect" preserve="all" />
     <type fullname="GogoGaga.OptimizedRopesAndCables.Rope" preserve="all" />
     <type fullname="GogoGaga.OptimizedRopesAndCables.RopeMesh" preserve="all" />
     <type fullname="Hazard" preserve="all" />
@@ -39,6 +41,7 @@
     <type fullname="HighlightPlus.HighlightEffect" preserve="all" />
     <type fullname="HighlightPlus.HighlightLabel" preserve="all" />
     <type fullname="HighlightPlus.HighlightProfile" preserve="all" />
+    <type fullname="HintIndicator" preserve="all" />
     <type fullname="HotspotHighlight" preserve="all" />
     <type fullname="IconToDescriptionSwap" preserve="all" />
     <type fullname="IsVisibleTimed" preserve="all" />
@@ -90,8 +93,13 @@
     <type fullname="TeleportManager/ButtonTargetPair" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BakeryDirectLight" preserve="all" />
+    <type fullname="BakerySkyLight" preserve="all" />
     <type fullname="ftLightmapsStorage" preserve="all" />
     <type fullname="ftGlobalStorage/AtlasPacker" preserve="nothing" serialized="true" />
+    <type fullname="ftGlobalStorage/AdjustedMesh" preserve="nothing" serialized="true" />
+    <type fullname="ftLightmapsStorage/LightData" preserve="nothing" serialized="true" />
+    <type fullname="ftLightmapsStorage/SectorData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="MeshBakerCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MB2_TextureBakeResults" preserve="all" />
@@ -155,8 +163,8 @@
     <type fullname="UnityEventNode" preserve="nothing" serialized="true" />
     <type fullname="WaitNode" preserve="nothing" serialized="true" />
     <type fullname="XRUIHapticFeedback/HapticSettings" preserve="nothing" serialized="true" />
-    <type fullname="TimelineNode" preserve="nothing" serialized="true" />
     <type fullname="LikertScaleNode" preserve="nothing" serialized="true" />
+    <type fullname="TimelineNode" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
